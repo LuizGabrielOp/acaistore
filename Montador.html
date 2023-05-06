@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Açai NATA</title>
+    <link rel="stylesheet" href="./montador.css" />
+    <link
+      rel="stylesheet"
+      media="screen"
+      href="https://fontlibrary.org//face/glacial-indifference"
+      type="text/css"
+    />
+  </head>
+  <body>
+    <div id="bloco">
+      <h1>Monte o seu copo de Açai</h1>
+      <form action="">
+        <p id="escolha">Escolha o tamanho do copo</p>
+        <select name="copo" id="tmcopo">
+          <option selected disabled>Escolha o tamanho do copo</option>
+          <option value="500ml">500ml</option>
+          <option value="1L">1Litro</option>
+        </select>
+        <div>
+          <p id="escolha">Escolha as frutas</p>
+          <input type="checkbox" id="Fruta" name="banana" value="banana" />
+          <label for="banana">Banana</label>
+          <input type="checkbox" id="Fruta" name="banana" value="banana" />
+          <label for="morango">Morango</label>
+          <input type="checkbox" id="Fruta" name="abacaxi" value="abacaxi" />
+          <label for="abacaxi">Abacaxi</label>
+          <input type="checkbox" id="Fruta" name="kiwi" value="kiwi" />
+          <label for="kiwi">Kiwi</label>
+        </div>
+        <div>
+          <p id="escolha">Escolha o creme</p>
+          <input type="checkbox" id="Creme" name="ninho" value="ninho" />
+          <label for="ninho">Creme ninho</label>
+          <input type="checkbox" id="Creme" name="oreo" value="oreo" />
+          <label for="oreo">Creme oreo</label>
+          <input type="checkbox" id="Creme" name="maracuja" value="maracuja" />
+          <label for="maracuja">Creme de maracujá</label>
+        </div>
+        <input type="submit" name="acao" value="Enviar" />
+      </form>
+    </div>
+  </body>
+</html>
